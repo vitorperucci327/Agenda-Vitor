@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import TaskItem from '../components/TaskItem';
-import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';
 import { AnimatePresence } from 'framer-motion';
 
 interface Task {
